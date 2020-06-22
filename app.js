@@ -1,4 +1,4 @@
-import { randomInt } from './yan/math.js';
+import { randomInt } from './yan/utils.js';
 
 import { qs, on } from './yan/dom.js';
 
