@@ -12,14 +12,19 @@ It Offers:-
 
 You can load and use all modules as a bundle:-
 
-`import * as yan from './yan.js'`
+```javascript
+  import * as yan from './yan.js';
+  
+  // your code
+```
 
 or import each module individually as per your need:-
 
-```Javascript
+```javascript
   import { qs, ready } from './yan/dom.js';
   import { pointInCircle } from './yan/collision.js';
   
+  // your code
 ```
 
 Jai Bharat!
