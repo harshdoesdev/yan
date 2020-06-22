@@ -6,5 +6,5 @@ export const version = '0.1-alpha';
 export * as device from './yan/device.js';
 export * as math from './yan/math.js';
 export * as collision from './yan/collision.js';
-export * as dom from './yan/dom.js';
+export * as tez from './yan/tez.js';
 export * as utils from './yan/utils.js';
