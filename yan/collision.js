@@ -25,9 +25,9 @@ export const rectInRect = (x1, y1, w1, h1, x2, y2, w2, h2) => {
 
   if(
 
-    x1 + w1 < x2 + w2 && x1 + w1 > x2 &&
-
-    y1 + h1 < y2 + h2 && y1 + h1 > y2
+    x1 < x2 + w2 && x1 + w1 > x2 &&
+    
+    y1 < y2 + h2 && y1 + h1 > y2
 
   ) {
 
@@ -46,7 +46,6 @@ const pointInRect = (px, py, rx, ry, rw, rh) => {
   return px > rx && px < rx && py > ry && py < ry;
 
 };
-
 
 // resolve 2d rect vs rect collision
 
