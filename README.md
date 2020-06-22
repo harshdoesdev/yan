@@ -5,7 +5,7 @@ written in ES6.
 
 It Offers:-
 
-+ a Tiny DOM Manipulation Library
++ a Tiny DOM Manipulation Library 'tez'
 + Simple Math and Collision Library
 + Utility Library ( with some unique functions )
 + a "Device" module which gives you information related to the user's device
@@ -21,7 +21,7 @@ You can load and use all modules as a bundle:-
 or import each module individually as per your need:-
 
 ```javascript
-  import { qs, ready } from './yan/dom.js';
+  import { qs, ready } from './yan/tez.js';
   import { pointInCircle } from './yan/collision.js';
   
   // your code
