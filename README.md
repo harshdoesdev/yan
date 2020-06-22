@@ -5,7 +5,7 @@ written in ES6.
 
 It Offers:-
 
-+ a Tiny DOM Manipulation Library 'tez'
++ [a Tiny DOM Manipulation Library](https://github.com/rwbeast/tjs "tez.js Github repo")
 + Simple Math and Collision Library
 + Utility Library ( with some unique functions )
 + a "Device" module which gives you information related to the user's device
